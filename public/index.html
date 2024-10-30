@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Amarnatha Portfolio</title>
+
+  <!-- Bootstrap css link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Bootstrap js link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+
+   <!--   favicon   -->
+
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+  <!-- custom css link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="photo-box">
+          <img src="./assets/images/Profile_pic1.jpg" alt="Amarnatha Patro" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Amarnatha Patro</h1>
+
+          <p class="title">Web Developer</p> 
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <!--  show Contact -->
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">patroamarnath128@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+916370110311" class="contact-link"> (+91)6370110311 </a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">Feb 04, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bengaluru, Karnataka, India</address>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <!--  Social Media Links -->
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/amarnathpatro4/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+
+          <li class="social-item">
+            <a href="https://github.com/Amarnath128" class="social-link">
+              <ion-icon name="logo-Github"></ion-icon>
+            </a>
+          </li>
+
+
+          <li class="social-item">
+            <a href="https://youtube.com/@amarnathpatrovlogs?si=rciG6u-MUBVt_WmE" class="social-link">
+              <ion-icon name="logo-Youtube"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/amaresthetic_/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Works</button> 
+          </li> 
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>    <!-- Blog -->
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            <ul>
+
+            <h4>Amarnatha Patro | MCA Student | New Horizon College of Engineering</h4>
+            <br>
+
+            Hello! I'm <q>Amarnatha Patro</q> , currently pursuing my Master's in Computer Applications (MCA) at New Horizon Engineering College.
+            I am a firm believer in the power of hard work and its ability to shape a successful future. I enjoy the journey of continuous improvement.
+             <br><br>          
+            
+            <h5>Technical Proficiency :</h5>
+            <li>💻 Programming Languages: C, C++, Java, Python</li>
+            <li>🌐 Web Development: HTML, CSS, JavaScript, Bootstrap</li>
+            <li>🛢️ Database Management: SQL, MySQL</li>
+            <br>
+
+            <h5>Self-Taught Skills:</h5>
+            <p>My proficiency in programming languages, including C, C++, and Java, as well as web development technologies such as HTML, CSS, Bootstrap, and JavaScript,
+            has been cultivated through dedicated self-study. The ability to learn independently is a skill I value in the ever-evolving landscape of technology.
+               </p>
+            </ul>
+          </p>
+
+          
+        </section>
+
+
+        <!--
+          - service  What i am doing --------------------
+        -->
+
+        <!-- Start Box -->
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+           
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Coding and Learning New Technology.</h4>
+
+                <p class="service-item-text">
+                  The most modern and quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+          
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+          
+            
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title"> Vlogging "Youtube Video"</h4>
+
+                <p class="service-item-text">
+                 I Create Sort Instagram Reels 
+                </p>
+              </div>
+
+            </li>
+         
+            
+            
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+          </ul>
+
+        </section>
+
+        
+        <!-- End Box -->
+
+
+
+
+
+
+        <!--
+          - testimonials modal =========================================================================
+        -->
+
+        
+        <div class="modal" modal>
+          <div class="overlay" data-overlay></div>    
+          <section class="modal">
+            <button class="none" data-modal-close-btn>
+              <ion-icon ></ion-icon>
+            </button>
+          </section>
+        </div>
+
+<!-- =================================================================================================== -->
+
+
+
+
+
+
+
+        <!--
+          - Works
+        -->
+
+        <section class="works">
+
+          <h3 class="h3 works-title">Works</h3>
+
+          <ul class="works-list has-scrollbar">
+
+            <li class="works-item">
+              <a href="#">
+                <img src="./assets/images/proj-img-1.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="works-item">
+              <a href="#">
+                <img src="./assets/images/Proj-img-2.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="works-item">
+              <a href="#">
+                <img src="./assets/images/Proj-img-3.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="works-item">
+              <a href="#">
+                <img src="./assets/images/Proj-img-4.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="works-item">
+              <a href="#">
+                <img src="./assets/images/Proj-img-5.png" alt="client logo">
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+          <li>
+            <a href="./Amarnatha's Resume.pdf" target="_blank">
+              <button class="btn downloadR"> Download My Resume</button>
+              </a>
+              </header>
+              <br>
+
+
+
+
+<!-- ----------------- to be Edit download it  -->
+
+
+
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+          <!-- NHCe -->
+          <li class="timeline-item">
+            <h5 class="h4 timeline-item-title">Master's:  </h5>
+
+            <h4 class="h4 timeline-item-title">New Horizon College Of Engineering</h4>
+            <h2 class="h5 timeline-item-title">  Bengaluru, Karnataka, India </h2>
+
+            <p class="timeline-text">
+             Course : MCA
+            </p>
+            <span> Present </span>
+
+          </li>
+
+            <!--  -->
+            <!-- BCA -->
+            <li class="timeline-item">
+              <h5 class="h4 timeline-item-title">Bacelor's:  </h5>
+
+              <h4 class="h4 timeline-item-title">Disha College Of Management & Technology Berhampur, Odisha, India</h4>
+
+              <p class="timeline-text">
+               Course : BCA
+              </p>
+              <span>2020 — 2023</span>
+
+            </li>
+            <!--  -->
+            <!-- 12th  -->
+            <li class="timeline-item">
+              <h5 class="h4 timeline-item-title"> 12th: </h5>
+
+              <h4 class="h4 timeline-item-title">City College Berhampur, Odisha, India</h4>
+
+              <p class="timeline-text">
+               Stream : Science
+              </p>
+              <span>2018 — 2020</span>
+
+            </li>
+
+            <!-- 
+              10th
+             -->
+
+             <li class="timeline-item">
+              <h5 class="h4 timeline-item-title"> 10th :</h5>
+
+              <h4 class="h4 timeline-item-title">D.A.V Public School Berhampur, Odisha, India</h4>
+
+              <p class="timeline-text">
+               Board : CBSE
+              </p>
+              <span>2009 — 2018</span>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+
+        <!-- Experience Section -->
+<!--         <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">1 year</h4>
+
+              <span>2022 — Present</span>
+
+              <p class="timeline-text">
+               <strong>Internship</strong> at <strong> Nokia </strong>
+               
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Programmer and Wed Developer</h4>
+
+              <span>2021 — present </span>
+
+              <p class="timeline-text">
+               Im doind Coding and Programming from 2021 and i worked on 
+              </p>
+
+            </li>
+
+          </ol> -->
+
+        </section>
+
+
+        <!--  My Skills Section -->
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+
+
+             <!--  -->
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="95">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+              <!--  -->
+
+
+
+              <!--  -->
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+               <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+            </li>
+            <!--  -->
+
+
+             <!--  -->
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java Script</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+             <!--  -->
+
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Bootstrap</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+            <!--  -->
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C Programming</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+            <!--  -->
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C++</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+            <!--  -->
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"> JAVA </h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+            <!--  -->
+
+
+
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="60">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+
+
+            <!--  -->
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Linux</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+      <!-- 
+        <- - #PORTFOLIO --> <!--  To Works  -->
+   
+
+      <article class="works" data-page="works">
+
+        <header>
+          <h2 class="h2 article-title">Certificates</h2>
+        </header>
+
+        <section class="projects">
+
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value> </div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+           
+
+          </div>
+
+          <ul class="project-list">
+
+
+
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="./assets/images/AWS.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="./assets/images/Intro to Generative AI.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/Intro to LLM.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+ <!--     #Projects -->
+ 
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects-posts">
+
+          <ul class="projects-posts-list">
+
+
+
+
+           <li class="projects-post-item">
+              <a href="#">
+  
+                <figure class="projects-banner-box">
+                  <img src="./assets/images/Proj-img-2.png" alt="Best fonts every designer" loading="lazy">
+                </figure>
+  
+                <div class="projects-content">
+  
+                  <div class="projects-meta">
+                    <p class="projects-category">Design</p>
+  
+                    <span class="dot"></span>
+  
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+  
+                  <h3 class="h3 projects-item-title">Tindog for Dog</h3>
+  
+                  <p class="projects-text">
+                    Using HTML, Css, Bootstrap
+                  </p>
+  
+                </div>
+  
+              </a>
+            </li>
+
+
+
+
+
+            <li class="projects-post-item">
+              <a href="#">
+
+                <figure class="projects-banner-box">
+                  <img src="./assets/images/proj-img-1.png" alt=" " loading="lazy">
+                </figure>
+
+                <div class="projects-content">
+
+                  <div class="projects-meta">
+                    <p class="projects-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 projects-item-title">AD Wallpaper - my Photography Collections</h3>
+
+                  <p class="projects-text">
+                    Using HTML, Css, JavaScript, Bootstrap
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+
+
+
+
+
+            <li class="projects-post-item">
+              <a href="#">
+
+                <figure class="projects-banner-box">
+                  <img src="./assets/images/Proj-img-3.png" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="projects-content">
+
+                  <div class="projects-meta">
+                    <p class="projects-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Feb 23, 2023</time>
+                  </div>
+
+                  <h3 class="h3 projects-item-title">Pic Media - Wallpaper Site</h3>
+
+                  <p class="projects-text">
+                    Using HTML, Css, Bootstrap, js
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+
+
+
+
+            <li class="projects-post-item">
+              <a href="#">
+
+                <figure class="projects-banner-box">
+                  <img src="./assets/images/Proj-img-4.png" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="projects-content">
+
+                  <div class="projects-meta">
+                    <p class="projects-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 projects-item-title"> Dice Game </h3>
+
+                  <p class="projects-text">
+                    using Html, Css, js 
+                    
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1834.9840102425105!2d77.70188009030072!3d12.959325646375362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1232926e3e27%3A0x209977809b7a70e!2sKalamandir!5e0!3m2!1sen!2sin!4v1720022847889!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+              </iframe>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="mailto:patroamarnath128@gmail.com" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit"  data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  <!-- ---------------SDK Fire base code pasted here ------------------- -->
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBnzzloGXD2RZb4KGA-oo-R_U5Or1DACGw",
+      authDomain: "amarnathapatro-portfolio.firebaseapp.com",
+      projectId: "amarnathapatro-portfolio",
+      storageBucket: "amarnathapatro-portfolio.appspot.com",
+      messagingSenderId: "42994961791",
+      appId: "1:42994961791:web:7abf1291b518a44a779e4a",
+      measurementId: "G-DXTRDWPX29"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
+</body>
+
+</html>
